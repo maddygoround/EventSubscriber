@@ -86,7 +86,7 @@ EventSubscriber.prototype.Subscribe = function (username) {
 
     this.users[username] = username;
     
-    console.log("This code is working");
+    console.log("This code is working
 
     return this;
 }
