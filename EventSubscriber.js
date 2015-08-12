@@ -19,6 +19,7 @@ function EventSubscriber() {
 
     /** @private */  this.messages = {};
 
+/** connect to emitter **/
     this.emit('connect');
 }
 
