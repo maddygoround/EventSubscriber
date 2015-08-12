@@ -20,7 +20,6 @@ function EventSubscriber() {
     /** @private */  this.messages = {};
 
     this.emit('connect');
-    console.log("This code is working");
 }
 
 
@@ -86,6 +85,8 @@ EventSubscriber.prototype.Subscribe = function (username) {
     this.emit("subscribe_" + username, OnSucccessSubscriberJoin, username);
 
     this.users[username] = username;
+    
+    console.log("This code is working");
 
     return this;
 }
