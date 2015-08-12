@@ -4,7 +4,7 @@
 var EventEmitter = require("events").EventEmitter;
 
 /**
- * Subclass instance of EventEmitter.
+ * Subclass an instance of EventEmitter.
  *
  * @constructor
  * @this {EventSubscriber}
