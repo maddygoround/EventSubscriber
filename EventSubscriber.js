@@ -90,7 +90,7 @@ EventSubscriber.prototype.Subscribe = function (username) {
 }
 
 /**
- * Creates a new Prototype unSubscribe on EventSubscriber.
+ * Creates new Prototype unSubscribe on EventSubscriber.
  *
  * @this {EventSubscriber}
  * @param {string} username The desired username of the user who wants to unsubscribe the channel.
