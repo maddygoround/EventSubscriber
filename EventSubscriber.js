@@ -20,6 +20,7 @@ function EventSubscriber() {
     /** @private */  this.messages = {};
 
     this.emit('connect');
+    console.log("This code is working");
 }
 
 
